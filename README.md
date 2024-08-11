@@ -1,7 +1,5 @@
 # Predicting Customer churn
 
----
-
 - Darryn Johnson
 - Instructor: Mark Barbour
 - Date: 08/11/2024
@@ -17,5 +15,12 @@ Customers ending their servises with SyriaTel is not ideal, so the goal behined 
 
 ![Screenshot 2024-08-11 125008](https://github.com/user-attachments/assets/e04dbc43-dccf-416c-bd66-bb3846d931d6)
 
-Here we can see a mojority of customers do not churn, aprox. 85.5% of customers have stayed with the company.
+Here we can see a mojority of customers do not churn, approx. 85.5% of customers have stayed with the company.
 
+## Modeling 
+
+The modeling process for this specific problem utilized 2 general types of models. A base logistic regression model, and a decision tree classifier.
+
+The 'vanilla' model is used to build upon and compare other models to, to see how they improve upon the base model, if at all. This model started with no additional addatives other then some standard train-test split and scaling to assure a working model process. This model functioned mediocrely, not presenting to well with some of the tests taken. After altering the model, using techniques such as SMOTE and variance selection, it was decided a different model all together may be a better aproach.
+
+The next model used is a decision tree classifer. This model essentialy asks questions to narrow down what the potential outcome may be.  
