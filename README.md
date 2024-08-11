@@ -28,3 +28,11 @@ The next model used is a decision tree classifer. This model essentialy asks que
 ![Screenshot 2024-08-11 130508](https://github.com/user-attachments/assets/26335365-1c39-4d88-9537-45acc56638eb)
 
 This model is indeed large and complex. The next logical step includes limiting this model to see if we can get it to function faster and display a readable visual representation. These steps include things like limiting the size of the tree, maximum features the tree uses and so on. After running through these tree reduction exercises, it was determined even though this tree is large, it performes better as is.
+
+## Evaluation 
+
+Decision tree classifier outperformes the other model and model iterations. It has extreme ease of access and simply put, just worked better. The model performed well with the ROC curve, confusion martix, and has a 91% accuracy score. Here are those graphs:
+
+![Screenshot 2024-08-11 131422](https://github.com/user-attachments/assets/ebed43fc-c2ae-4c06-a2f3-23b04ac4f4ec)
+
+![Screenshot 2024-08-11 131403](https://github.com/user-attachments/assets/2fff6687-fd08-4bb9-80b0-6aa989c58f7e)
