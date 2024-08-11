@@ -23,4 +23,8 @@ The modeling process for this specific problem utilized 2 general types of model
 
 The 'vanilla' model is used to build upon and compare other models to, to see how they improve upon the base model, if at all. This model started with no additional addatives other then some standard train-test split and scaling to assure a working model process. This model functioned mediocrely, not presenting to well with some of the tests taken. After altering the model, using techniques such as SMOTE and variance selection, it was decided a different model all together may be a better aproach.
 
-The next model used is a decision tree classifer. This model essentialy asks questions to narrow down what the potential outcome may be.  
+The next model used is a decision tree classifer. This model essentialy asks questions to narrow down what the potential outcome may be. This model performed significantly better then the standard model, performing failry well with the tests conducted. Here is a visualization of the model.
+
+![Screenshot 2024-08-11 130508](https://github.com/user-attachments/assets/26335365-1c39-4d88-9537-45acc56638eb)
+
+This model is indeed large and complex. The next logical step includes limiting this model to see if we can get it to function faster and display a readable visual representation. These steps include things like limiting the size of the tree, maximum features the tree uses and so on. After running through these tree reduction exercises, it was determined even though this tree is large, it performes better as is.
