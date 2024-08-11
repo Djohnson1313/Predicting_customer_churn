@@ -1,20 +1,20 @@
-# Predicting Customer churn
+# Predicting Customer Churn
 
 - Darryn Johnson
 - Instructor: Mark Barbour
 - Date: 08/11/2024
-- Blog: (My First Model)[https://datascienceandyou.blogspot.com/2024/08/my-first-model.html]
+- Blog: [My First Model](https://datascienceandyou.blogspot.com/2024/08/my-first-model.html)
 
-## overview 
-In this repository, we look into a dataframe containing 3,333 entries with 21 columns. Each row represents a customer and their respective account iformation including data like the state the reside in, the account length, what plans they purchase and so on. This data was collected by (SyriaTel)[https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset], a telecommunications company.
+## Overview 
+In this repository, we look into a dataframe containing 3,333 entries with 21 columns. Each row represents a customer and their respective account iformation including data like the state the reside in, the account length, what plans they purchase and so on. This data was collected by [SyriaTel](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset), a telecommunications company.
 
 ## Business Understanding 
 Customers ending their servises with SyriaTel is not ideal, so the goal behined this project is to predict whether a customer will leave or not. This is represented by `churn`. All entries within this dataset has an entry of either true (did churn) or false (did not churn). Uaing this information, as well as all other aspects recorded by SyriTel, we aim to produce a model that can notify us of a customers potential to churn.
 
 ## Data Distribution 
-<div>
- < img src = 'https://github.com/user-attachments/assets/2ba4ca27-969e-4c80-81fe-9bf08efd2d14' width = '100' />
-<div/> 
+
+![Screenshot 2024-08-11 125008](https://github.com/user-attachments/assets/9d4c415d-29a3-4122-ac23-751bc2692755)
+
 Here we can see a mojority of customers do not churn, approx. 85.5% of customers have stayed with the company.
 
 ## Modeling 
@@ -36,3 +36,9 @@ Decision tree classifier outperformes the other model and model iterations. It h
 ![Screenshot 2024-08-11 131422](https://github.com/user-attachments/assets/ebed43fc-c2ae-4c06-a2f3-23b04ac4f4ec)
 
 ![Screenshot 2024-08-11 131403](https://github.com/user-attachments/assets/2fff6687-fd08-4bb9-80b0-6aa989c58f7e)
+
+# Conclusion 
+
+Decision tree classifier performed well and is the recommended model to use for this specific business problem. See the attached [jupyter notebook](https://github.com/Djohnson1313/Predicting_customer_churn/blob/master/predicting_customer_churn.ipynb) for more details.
+
+## Repository structure
