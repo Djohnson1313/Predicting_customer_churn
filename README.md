@@ -13,7 +13,7 @@ Customers ending their servises with SyriaTel is not ideal, so the goal behined 
 
 ## Data Distribution 
 <div>
-< img src = 'https://github.com/user-attachments/assets/e04dbc43-dccf-416c-bd66-bb3846d931d6' width = '100'/>
+< img src = 'https://github.com/user-attachments/assets/e04dbc43-dccf-416c-bd66-bb3846d931d6' width = '100' height = '100' />
 </div>
 
 Here we can see a mojority of customers do not churn, approx. 85.5% of customers have stayed with the company.
