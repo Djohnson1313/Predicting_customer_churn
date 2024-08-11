@@ -12,9 +12,9 @@ In this repository, we look into a dataframe containing 3,333 entries with 21 co
 Customers ending their servises with SyriaTel is not ideal, so the goal behined this project is to predict whether a customer will leave or not. This is represented by `churn`. All entries within this dataset has an entry of either true (did churn) or false (did not churn). Uaing this information, as well as all other aspects recorded by SyriTel, we aim to produce a model that can notify us of a customers potential to churn.
 
 ## Data Distribution 
-
-< img src = 'https://github.com/user-attachments/assets/2de9aa61-b512-4e64-a976-254761fc5f96' width = '100' />
-
+<div>
+ < img src = 'https://github.com/user-attachments/assets/2ba4ca27-969e-4c80-81fe-9bf08efd2d14' width = '100' />
+<div/> 
 Here we can see a mojority of customers do not churn, approx. 85.5% of customers have stayed with the company.
 
 ## Modeling 
