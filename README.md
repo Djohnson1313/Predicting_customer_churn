@@ -42,3 +42,8 @@ Decision tree classifier outperformes the other model and model iterations. It h
 Decision tree classifier performed well and is the recommended model to use for this specific business problem. See the attached [jupyter notebook](https://github.com/Djohnson1313/Predicting_customer_churn/blob/master/predicting_customer_churn.ipynb) for more details.
 
 ## Repository structure
+
+├── gitignore
+├── predicting customer churn presentation.pdf
+├── README.md
+└── prediciting_customer_churn.ipynb
